@@ -1,1 +1,49 @@
 
+
+:root {
+    --cor-fundo: #97b884
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, .caixa-perguntas, .caixa-resultado {
+    font-family: 'Chakra Petch' sans-serif;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+.caixa-alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-resultado {
+    display: none;
+}
+
+.caixa-resultado.mostrar {
+    display: block;
+}
