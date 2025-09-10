@@ -5,4 +5,4 @@ function aleatorio(lista){
     return lista(posicao);
 }
 
-const nome = aleatorio(nome)
+const nome = aleatorio(nomes)

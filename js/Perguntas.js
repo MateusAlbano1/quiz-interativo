@@ -1,38 +1,38 @@
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Qual marca de perfume você prefere, Malbec Black ou Zaad?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Malbec Black",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você tem bom gosto, gosta de algo suave mas poderoso",
+                    "COm toda certeza quer mostrar quem é o Malvado da Parada"
                 ],
             },
             {
-                texto: "alternativa 2",
+                texto: "Zaad",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Se você escolheu essa opção, tenho a dizer... Nós temos algo em comum",
+                    "Perfume intenso que mostrar quem é o Alfa"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Qual marca de perfume você prefera, Kaiak ou Uomini?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Uomini",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você gosta de perfume discreto",
+                    "Ou você não tem dinheiro para comprar uma marca amis cara mesmo..."
                 ],
             },
             {
-                texto: "alternativa 2",
+                texto: "Kaiak",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você quer arrasar com a meninada",
+                    "Boa sorte Garanhão"
                 ],
             }
         ]
