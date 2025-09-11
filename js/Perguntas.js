@@ -38,58 +38,58 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Você prefere Nike ou Adidas?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Nike",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você quer se mostrar para alguém?",
+                    "Deve gostar mesmo apezar de saber que milhares de crianças estão sendo escravisadas?"
                 ],
             },
             {
-                texto: "alternativa 2",
+                texto: "Adidas",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Tem criaças te agradecendo agora",
+                    "Você é uma boa pessoa"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Você prefere cães ou gatos?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Cães",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você deve gostar de bixo grande e brincalhão",
+                    "Único problema a bagunça..."
                 ],
             },
             {
-                texto: "alternativa 2",
+                texto: "Gatos",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você gosta de um animal fofo e que não dá tanto probleme",
+                    "São bem fáceis de lidar"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Você prefere peixes/tartaruga ou passaros/roedores",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Paixe ou Tartaruga",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você gosta mesmo de água e animais tranquilos",
+                    "Única dificuldade é limpar o aquário"
                 ],
             },
             {
-                texto: "alternativa 2",
+                texto: "Passaros, Porquinho da Índia/Ramister",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Passaros? só toma cuidado com o dedo... eles podem arrancar um pedaço",
+                    "Ramister e Porquinho da Índica são bem tranquilos, porém são uma máquina de fazer cocô"
                 ],
             }
         ]
