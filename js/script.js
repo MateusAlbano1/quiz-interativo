@@ -23,12 +23,22 @@ function iniciaJogo() {
     caixaPerguntas.classList.remove(".mostrar");
     caixaAlternativas.classList.remove(".mostrar");
     caixaResultado.classList.remove(".mostrar");
-    mostrarPergunta ();pdydy
+    mostrarPergunta ();
 }
 
 function mostrarPergunta() {
     if(atual >= perguntas.length){
         mostrarResultado();
         return;
+    }
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
+    mostraAlternativas();
+}
+
+function mostraAlternativas() {
+    for(const alternativa of perguntaAtual.alternativa){
+        const botaoAlternativas = document.createElement()
     }
 }
