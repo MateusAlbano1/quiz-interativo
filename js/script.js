@@ -39,6 +39,43 @@ function mostrarPergunta() {
 
 function mostraAlternativas() {
     for(const alternativa of perguntaAtual.alternativa){
-        const botaoAlternativas = document.createElement()
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
+        caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
+
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    historiaFinal += afirmacoes + " ";
+    if(opcaoSelecionada.proxima !== undefined) {
+        atual = opcaoSelecionada.proxima;
+    }else {
+        mostrarResultado();
+        return;
+    }
+    mostrarPergunta();
+}
+
+function mostrarResultado(){
+    caixaPerguntas.textContent = 'Após os estudos, ${nome} descobriu que';
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar");
+    botaoJogarNovamente.addEventListener("click", jogarNovamente);
+}
+
+function jogarNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar");
+    mostrarPergunta();
+}
+
+function substituiNome() {
+    for(const pergunta of pergunta) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+substituiNome();
