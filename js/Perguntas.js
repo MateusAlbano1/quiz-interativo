@@ -1,20 +1,22 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Qual marca de perfume você prefere, Malbec Black ou Zaad?",
         alternativas: [
             {
-                texto: "Malbec Black",
+                texto: "Você prefere Malbec Black?",
                 afirmacao: [
                     "Você tem bom gosto, gosta de algo suave mas poderoso",
                     "COm toda certeza quer mostrar quem é o Malvado da Parada"
                 ],
+                proxima: 1
             },
             {
-                texto: "Zaad",
+                texto: "Você prefere Zaad",
                 afirmacao: [
                     "Se você escolheu essa opção, tenho a dizer... Nós temos algo em comum",
                     "Perfume intenso que mostrar quem é o Alfa"
                 ],
+                proxima: 1
             }
         ]
     },
@@ -27,6 +29,7 @@ const perguntas = [
                     "Você gosta de perfume discreto",
                     "Ou você não tem dinheiro para comprar uma marca amis cara mesmo..."
                 ],
+                proxima: 2
             },
             {
                 texto: "Kaiak",
@@ -34,6 +37,7 @@ const perguntas = [
                     "Você quer arrasar com a meninada",
                     "Boa sorte Garanhão"
                 ],
+                proxima: 2
             }
         ]
     },
@@ -46,6 +50,7 @@ const perguntas = [
                     "Você quer se mostrar para alguém?",
                     "Deve gostar mesmo apezar de saber que milhares de crianças estão sendo escravisadas?"
                 ],
+                proxima: 3 
             },
             {
                 texto: "Adidas",
@@ -53,6 +58,7 @@ const perguntas = [
                     "Tem criaças te agradecendo agora",
                     "Você é uma boa pessoa"
                 ],
+                proxima: 3
             }
         ]
     },
@@ -65,6 +71,7 @@ const perguntas = [
                     "Você deve gostar de bixo grande e brincalhão",
                     "Único problema a bagunça..."
                 ],
+                proxima: 4
             },
             {
                 texto: "Gatos",
@@ -72,6 +79,7 @@ const perguntas = [
                     "Você gosta de um animal fofo e que não dá tanto probleme",
                     "São bem fáceis de lidar"
                 ],
+                proxima: 4
             }
         ]
     },
